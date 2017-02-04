@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+@class PersonViewModel;
 @interface PersonListViewModel : NSObject
+
+// 保存转模型后的模型对象
+@property (nonatomic, strong) NSMutableArray<PersonViewModel *> *listViewModelArrM;
+
+// 向外界（view）提供加载数据的接口
+- (void)loadPersonsData:(void(^)())completion;
 
 @end

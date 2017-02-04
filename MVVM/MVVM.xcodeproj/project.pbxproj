@@ -16,6 +16,7 @@
 		181898D41E463B14003F8FDC /* PersonListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 181898D31E463B14003F8FDC /* PersonListViewModel.m */; };
 		181898D71E463B25003F8FDC /* PersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 181898D61E463B25003F8FDC /* PersonViewModel.m */; };
 		181898DA1E463B2F003F8FDC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 181898D91E463B2F003F8FDC /* Person.m */; };
+		181898E01E463C31003F8FDC /* PersonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181898DF1E463C31003F8FDC /* PersonCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		181898D61E463B25003F8FDC /* PersonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewModel.m; sourceTree = "<group>"; };
 		181898D81E463B2F003F8FDC /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		181898D91E463B2F003F8FDC /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		181898DE1E463C31003F8FDC /* PersonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonCell.h; sourceTree = "<group>"; };
+		181898DF1E463C31003F8FDC /* PersonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 			children = (
 				181898CF1E46391B003F8FDC /* ViewController.h */,
 				181898D01E46391B003F8FDC /* ViewController.m */,
+				181898DE1E463C31003F8FDC /* PersonCell.h */,
+				181898DF1E463C31003F8FDC /* PersonCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				181898DA1E463B2F003F8FDC /* Person.m in Sources */,
+				181898E01E463C31003F8FDC /* PersonCell.m in Sources */,
 				181898D71E463B25003F8FDC /* PersonViewModel.m in Sources */,
 				181898D11E46391B003F8FDC /* ViewController.m in Sources */,
 				181898B91E463880003F8FDC /* AppDelegate.m in Sources */,

@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
+
 
 @interface PersonViewModel : NSObject
+
+@property (nonatomic, strong) Person *person;
+
+@property (nonatomic, readonly) NSString *ageDes;
 
 @end

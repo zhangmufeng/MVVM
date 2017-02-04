@@ -1,18 +1,16 @@
 //
-//  PersonViewModel.m
+//  PersonCell.h
 //  MVVM
 //
 //  Created by 张木锋 on 2017/2/5.
 //  Copyright © 2017年 ZMF. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "PersonViewModel.h"
 
-@implementation PersonViewModel
+@interface PersonCell : UITableViewCell
 
-- (NSString *)ageDes {
-    
-    return _person.age > 50 ? @"老年人" : @"年轻人";
-}
+@property (nonatomic, strong) PersonViewModel *viewModel;
 
 @end
